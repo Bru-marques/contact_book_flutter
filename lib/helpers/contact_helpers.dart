@@ -107,6 +107,7 @@ class Contact {
   String? phone;
   String? img;
 
+  Contact();
 // turn the map in a contact
   Contact.fromMap(Map map) {
     id = map[idColumn];
